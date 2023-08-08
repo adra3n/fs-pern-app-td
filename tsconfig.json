@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "strict": true,
-    "skipLibCheck": true,
-    "target": "ES2019",
+    "baseUrl": ".",
+    "outDir": "dist",
     "module": "commonjs",
-    "esModuleInterop": true
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
   "include": ["client/**/*.ts", "server/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
