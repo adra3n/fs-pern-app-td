@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES2019",
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "include": ["client/**/*.ts", "server/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
